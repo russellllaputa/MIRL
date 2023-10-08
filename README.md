@@ -17,7 +17,7 @@ other hand, MIRL demonstrates high pre-training efficiency. With less pre-traini
 time, MIRL yields competitive performance compared to other approaches.
 
 <div align='center'>
-<img src="docs/mirl_arch.png" alt="Architecture" width="680" height="670" style="display: block;"/>
+<img src="mirl_arch.png" alt="Architecture" width="880" style="display: block;"/>
 </div>
 
 
