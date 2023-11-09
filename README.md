@@ -34,7 +34,8 @@ Upload the pre-trained and fine-tuned models.
 
 The preprint version is public at [arxiv](https://arxiv.org/abs/2309.14136).
 
-## This repo works with PaddlePaddle 2.3
+## Prerequisites
+This repo works with [PaddlePaddle](https://www.paddlepaddle.org.cn/en) 2.3 or higher
 
 ## Pretrain on ImageNet-1K
 The following table provides pretrained checkpoints and logs used in the paper.
