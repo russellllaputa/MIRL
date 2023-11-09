@@ -38,6 +38,7 @@ The following table provides pretrained checkpoints and logs used in the paper.
 | model | pre-trained 300 epochs | pre-trained 800 epochs  |
 | :---: | :---: | :---: |
 | ViT-B-48 | [checkpoint](https://pan.baidu.com/s/1H3gpMl4-S0gFibv5xbJDHQ?pwd=mirl), [log](https://pan.baidu.com/s/1ZmW1KyrzLBvD52buX1GqAQ?pwd=mirl)| [checkpoint](https://pan.baidu.com/share/init?surl=bpyLctZy6Ww2QQ-s9KiSjQ&pwd=mirl), [log](https://pan.baidu.com/s/1XKBXSLbyPqeXFREaTdmupQ?pwd=mirl)|
-| ViT-S-54 | -| [checkpoint](https://pan.baidu.com/share/init?surl=oF0Gnhhlx6gdgUhIjjDl6Q&pwd=mirl), log 
+| ViT-S-54 | [checkpoint](https://pan.baidu.com/s/12CxU36H6a6oObMllwX7izQ?pwd=mirl), [log](https://pan.baidu.com/s/1IwvQYMjhyGCLXpDFfHXjww?pwd=mirl)| [checkpoint](https://pan.baidu.com/share/init?surl=oF0Gnhhlx6gdgUhIjjDl6Q&pwd=mirl), log |
+ViT-B-24| [checkpoint](https://pan.baidu.com/s/1BLywX8vam47FWMO1zsVxFA?pwd=mirl),[log](https://pan.baidu.com/s/1yO-ZpjuFZ5erLq-Gy3sTZw?pwd=mirl) | -
 
 
