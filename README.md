@@ -51,7 +51,7 @@ We also converted the Paddle checkpoint of ViT-B-48 pre-trained 800 epochs into 
 | :---: | :---: | :---: | :---: | :---: |
 | ViT-B | BEiT | 800 | 83.2 | - |
 | ViT-B | MAE | 1600 | 83.6 | - |
-| ViT-B | MIRL | 300/800 | 83.5/84.1 | checkpoint/[log](https://pan.baidu.com/s/15qs-OsoAE_ZVPCZPhChi4g?pwd=mirl) |
+| ViT-B | MIRL | 300/800 | 83.5/84.1 | [checkpoint](https://pan.baidu.com/s/1chhS8_D5EDlHgE07ohOVtw?pwd=mirl)/[log](https://pan.baidu.com/s/15qs-OsoAE_ZVPCZPhChi4g?pwd=mirl) |
 | ViT-S-54 | MIRL | 300/800 | 84.4/84.8 | [checkpoint](https://pan.baidu.com/s/1THSNteL07zLSnSLgDm2z8A?pwd=mirl)/[log](https://pan.baidu.com/s/1CZ4ZX5Ja-OYNY8NwWD2mgA?pwd=mirl) |
 | ViT-B-24 | MIRL | 300 | 84.4/84.7 | [checkpoint](https://pan.baidu.com/s/1znSpIMcYpH7HCsxr-Cf86A?pwd=mirl)/[log](https://pan.baidu.com/s/1duG4gz3mj64TmNqThXWZvA?pwd=mirl) |
 | ViT-L | MaskFeat | 1600 | 85.7 | - |
