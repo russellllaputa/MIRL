@@ -1,4 +1,4 @@
-# Masked Image Residual Learning for Scaling Deeper Vision Transformers
+# [NeurIPS 2023] Masked Image Residual Learning for Scaling Deeper Vision Transformers
 Official implementation of the paper [Masked Image Residual Learning for Scaling Deeper Vision Transformers](https://arxiv.org/abs/2309.14136)
 > Abstract: Deeper Vision Transformers (ViTs) are more challenging to train. We expose a
 degradation problem in deeper layers of ViT when using masked image modeling
