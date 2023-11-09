@@ -28,6 +28,10 @@ Code and pretrained models will be uploaded soon
 
 ## Updates
 
+***09/Nov/2023***
+
+Upload pre-trained models.
+
 ***07/Oct/2023***
 
 The preprint version is public at [arxiv](https://arxiv.org/abs/2309.14136).
@@ -45,3 +49,17 @@ We also converted the Paddle checkpoint of ViT-B-48 pre-trained 800 epochs into 
 )) using script converpd2pth.py
 
 
+## Acknowledgement
+Our project is based on [MAE](https://github.com/facebookresearch/mae). Thanks for their wonderful work.
+
+
+## Citation
+
+```bash
+@article{huang2023masked,
+  title={Masked Image Residual Learning for Scaling Deeper Vision Transformers},
+  author={Huang, Guoxi and Fu, Hongtao and Bors, Adrian G},
+  journal={arXiv preprint arXiv:2309.14136},
+  year={2023}
+}
+```
