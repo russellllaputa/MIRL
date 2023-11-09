@@ -23,8 +23,6 @@ time, MIRL yields competitive performance compared to other approaches.
 
 
 
-Code and pretrained models will be uploaded soon
-
 
 ## Updates
 
