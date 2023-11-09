@@ -39,13 +39,25 @@ The preprint version is public at [arxiv](https://arxiv.org/abs/2309.14136).
 The following table provides pretrained checkpoints and logs used in the paper.
 | model | pre-trained 300 epochs | pre-trained 800 epochs  |
 | :---: | :---: | :---: |
-| ViT-B-48 | [checkpoint](https://pan.baidu.com/s/1H3gpMl4-S0gFibv5xbJDHQ?pwd=mirl), [log](https://pan.baidu.com/s/1ZmW1KyrzLBvD52buX1GqAQ?pwd=mirl)| [checkpoint](https://pan.baidu.com/share/init?surl=bpyLctZy6Ww2QQ-s9KiSjQ&pwd=mirl), [log](https://pan.baidu.com/s/1XKBXSLbyPqeXFREaTdmupQ?pwd=mirl)|
-| ViT-S-54 | [checkpoint](https://pan.baidu.com/s/12CxU36H6a6oObMllwX7izQ?pwd=mirl), [log](https://pan.baidu.com/s/1IwvQYMjhyGCLXpDFfHXjww?pwd=mirl)| [checkpoint](https://pan.baidu.com/share/init?surl=oF0Gnhhlx6gdgUhIjjDl6Q&pwd=mirl), log |
-ViT-B-24| [checkpoint](https://pan.baidu.com/s/1BLywX8vam47FWMO1zsVxFA?pwd=mirl),[log](https://pan.baidu.com/s/1yO-ZpjuFZ5erLq-Gy3sTZw?pwd=mirl) | -
+| ViT-B-48 | [checkpoint](https://pan.baidu.com/s/1H3gpMl4-S0gFibv5xbJDHQ?pwd=mirl)/[log](https://pan.baidu.com/s/1ZmW1KyrzLBvD52buX1GqAQ?pwd=mirl)| [checkpoint](https://pan.baidu.com/share/init?surl=bpyLctZy6Ww2QQ-s9KiSjQ&pwd=mirl)/[log](https://pan.baidu.com/s/1XKBXSLbyPqeXFREaTdmupQ?pwd=mirl)|
+| ViT-S-54 | [checkpoint](https://pan.baidu.com/s/12CxU36H6a6oObMllwX7izQ?pwd=mirl)/[log](https://pan.baidu.com/s/1IwvQYMjhyGCLXpDFfHXjww?pwd=mirl)| [checkpoint](https://pan.baidu.com/share/init?surl=oF0Gnhhlx6gdgUhIjjDl6Q&pwd=mirl)/log |
+ViT-B-24| [checkpoint](https://pan.baidu.com/s/1BLywX8vam47FWMO1zsVxFA?pwd=mirl)/[log](https://pan.baidu.com/s/1yO-ZpjuFZ5erLq-Gy3sTZw?pwd=mirl) | -
 
 We also converted the Paddle checkpoint of ViT-B-48 pre-trained 800 epochs into a PyTorch version ([download link](https://pan.baidu.com/s/1u3Kv1ENTRi3oD-usRkHQSA?pwd=mirl 
 )) using script converpd2pth.py
 
+## Main Results on ImageNet-1K
+| Encoder | Method | Pre-train Epochs | FT acc@1(%) | FT checkpoint/log |
+| :---: | :---: | :---: | :---: | :---: |
+| ViT-B | BEiT | 800 | 83.2 | - |
+| ViT-B | MAE | 1600 | 83.6 | - |
+| ViT-B | MIRL | 300/800 | 83.5/84.1 | checkpoint/[log](https://pan.baidu.com/s/15qs-OsoAE_ZVPCZPhChi4g?pwd=mirl) |
+| ViT-S-54 | MIRL | 300/800 | 84.4/84.8 | [checkpoint](https://pan.baidu.com/s/1THSNteL07zLSnSLgDm2z8A?pwd=mirl)/[log](https://pan.baidu.com/s/1CZ4ZX5Ja-OYNY8NwWD2mgA?pwd=mirl) |
+| ViT-B-24 | MIRL | 300 | 84.4/84.7 | [checkpoint](https://pan.baidu.com/s/1znSpIMcYpH7HCsxr-Cf86A?pwd=mirl)/[log](https://pan.baidu.com/s/1duG4gz3mj64TmNqThXWZvA?pwd=mirl) |
+| ViT-L | MaskFeat | 1600 | 85.7 | - |
+| ViT-L | HPM | 800 | 85.8 | - |
+| ViT-L | MAE | 1600 | 85.9 | - |
+| ViT-B-48 | MIRL | 300/800 | 85.3/86.2 | [checkpoint](https://pan.baidu.com/s/1upUTIkGgWGQQFR1y7hLT4A?pwd=mirl)/[log](https://pan.baidu.com/s/1yiKqt7SCQI1LhjKr4QhoFA?pwd=mirl) |
 
 ## Acknowledgement
 Our project is based on [MAE](https://github.com/facebookresearch/mae). Thanks for their wonderful work.
