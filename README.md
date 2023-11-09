@@ -30,7 +30,7 @@ Code and pretrained models will be uploaded soon
 
 ***09/Nov/2023***
 
-Upload pre-trained models.
+Upload the pre-trained models.
 
 ***07/Oct/2023***
 
