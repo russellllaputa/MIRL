@@ -1,5 +1,5 @@
 # [NeurIPS 2023] Masked Image Residual Learning for Scaling Deeper Vision Transformers
-Official implementation of the paper [Masked Image Residual Learning for Scaling Deeper Vision Transformers](https://arxiv.org/abs/2309.14136)
+Official implementation of the paper [Masked Image Residual Learning for Scaling Deeper Vision Transformers](https://openreview.net/pdf?id=7WTA298wts)
 > Abstract: Deeper Vision Transformers (ViTs) are more challenging to train. We expose a
 degradation problem in deeper layers of ViT when using masked image modeling
 (MIM) for pre-training. To ease the training of deeper ViTs, we introduce a self-supervised learning framework called Masked Image Residual Learning (MIRL),
