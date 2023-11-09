@@ -35,8 +35,8 @@ The preprint version is public at [arxiv](https://arxiv.org/abs/2309.14136).
 
 ## Pretrain on ImageNet-1K
 The following table provides pretrained checkpoints and logs used in the paper.
-| | ViT-B-48|
-| :---: | :---: |
-| pretrained checkpoints| [download](https://pan.baidu.com/share/init?surl=bpyLctZy6Ww2QQ-s9KiSjQ&pwd=mirl) |
-| logs | [download](https://pan.baidu.com/s/1XKBXSLbyPqeXFREaTdmupQ?pwd=mirl) |
+| model | pre-trained checkpoints | pre-training logs |
+| :---: | :---: | :---: |
+| ViT-B-48 | [download](https://pan.baidu.com/share/init?surl=bpyLctZy6Ww2QQ-s9KiSjQ&pwd=mirl) | [download](https://pan.baidu.com/s/1XKBXSLbyPqeXFREaTdmupQ?pwd=mirl)
+
 
