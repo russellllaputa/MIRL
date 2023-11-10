@@ -578,9 +578,6 @@ def mirl_vit_base_patch16_dec512d2b(**kwargs):
 
 
 
-
-
-
 # set recommended archs
 mirl_vit_small_patch16 = mirl_vit_small_patch16_dec384d2b # decoder: 384 dim, 2 blocks
 mirl_vit_small_patch16_depth54 = mirl_vit_small_patch16_depth54_dec384d1b # decoder: 384 dim, 1 blocks
