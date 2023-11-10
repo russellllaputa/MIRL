@@ -68,7 +68,7 @@ The fine-tuning instruction is in [FINETUNE.md](FINETUNE.md).
 | ViT-B-48 | MIRL | 300/800 | 85.3/86.2 | [checkpoint](https://pan.baidu.com/s/1upUTIkGgWGQQFR1y7hLT4A?pwd=mirl)/[log](https://pan.baidu.com/s/1yiKqt7SCQI1LhjKr4QhoFA?pwd=mirl) |
 
 ## Acknowledgement
-Our project is based on [MAE](https://github.com/facebookresearch/mae). Thanks for their wonderful work.
+Our project is based on [MAE](https://github.com/facebookresearch/mae) and its PaddlePaddle re-implementation in [PLSC](https://github.com/PaddlePaddle/PLSC). Thanks for their wonderful work.
 
 
 ## Citation
