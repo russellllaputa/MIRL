@@ -163,3 +163,4 @@ def evaluate(data_loader, model, device):
             losses=metric_logger.loss))
 
     return {k: meter.global_avg for k, meter in metric_logger.meters.items()}
+ 
