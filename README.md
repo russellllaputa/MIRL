@@ -72,6 +72,7 @@ Our project is based on [MAE](https://github.com/facebookresearch/mae) and its P
 
 
 ## Citation
+If you find this project useful in your research, please consider cite:
 
 ```bash
 @article{huang2023masked,
