@@ -46,7 +46,7 @@ The following table provides pretrained checkpoints and logs used in the paper.
 ViT-B-24| [checkpoint](https://pan.baidu.com/s/1BLywX8vam47FWMO1zsVxFA?pwd=mirl)/[log](https://pan.baidu.com/s/1yO-ZpjuFZ5erLq-Gy3sTZw?pwd=mirl) | -
 
 We also converted the Paddle checkpoint of ViT-B-48 pre-trained 800 epochs into a PyTorch version ([download link](https://pan.baidu.com/s/1u3Kv1ENTRi3oD-usRkHQSA?pwd=mirl 
-)) using script convert_pd2pth.py
+)) using script util/paddle2pytorch.py
 
 ## Main Results on ImageNet-1K
 | Encoder | Method | Pre-train Epochs | FT acc@1(%) | FT checkpoint/log |
