@@ -146,3 +146,4 @@ def vit_huge_patch14(**kwargs):
         norm_layer=partial(nn.LayerNorm, epsilon=1e-6),
         **kwargs)
     return model
+    
