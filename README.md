@@ -38,6 +38,9 @@ The preprint version is public at [arxiv](https://arxiv.org/abs/2309.14136).
 This repo works with [PaddlePaddle](https://www.paddlepaddle.org.cn/en) 2.3 or higher
 
 ## Pretrain on ImageNet-1K
+
+The pre-training instruction is in [PRETRAIN.md](PRETRAIN.md).
+
 The following table provides pretrained checkpoints and logs used in the paper.
 | model | pre-trained 300 epochs | pre-trained 800 epochs  |
 | :---: | :---: | :---: |
@@ -49,6 +52,9 @@ We also converted the Paddle checkpoint of ViT-B-48 pre-trained 800 epochs into 
 )) using script util/paddle2pytorch.py
 
 ## Main Results on ImageNet-1K
+
+The fine-tuning instruction is in [FINETUNE.md](FINETUNE.md).
+
 | Encoder | Method | Pre-train Epochs | FT acc@1(%) | FT checkpoint/log |
 | :---: | :---: | :---: | :---: | :---: |
 | ViT-B | BEiT | 800 | 83.2 | - |
