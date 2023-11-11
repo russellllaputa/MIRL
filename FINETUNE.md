@@ -65,4 +65,3 @@ python3 -m paddle.distributed.launch \
 
 - Here the effective batch size is (`batch_size` per gpu) * (`nodes`) * (gpus per node) = 2048.
 - `blr` is the base learning rate. The actual `lr` is computed by the [linear scaling rule](https://arxiv.org/abs/1706.02677): `lr` = `blr` * effective batch size / 256.
-- Here we use EMA to improve the results of our long-tail tasks in practical applications, but we clarify this will not yield great different results on ImageNet-1K. The hyperparameter settings without EAM can be found from [here](https://github.com/facebookresearch/mae/blob/main/FINETUNE.md).
