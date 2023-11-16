@@ -9,9 +9,7 @@ from util.functions import patchify, unpatchify, mask_unpatchify
 
 class MIRLViT(nn.Layer):
     """ Masked Image Residual Learning with VisionTransformer backbone
-    TruncateMaskedAutoencoder
     """
-
     def __init__(self,
                  img_size=224,
                  patch_size=16,
